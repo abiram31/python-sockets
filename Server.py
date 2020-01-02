@@ -1,34 +1,4 @@
 #!/usr/bin/python3
-#==============================================================================
- #   Assignment:  Milestone 3
- #
- #       Author:  Abiram Kaimathuruthy
- #     Language:  Python
- #   To Compile:  n/a
- #
- #        Class:  DPI912
- #    Professor:  Prof. Kaduri
- #     Due Date:  2019-10-10
- #    Submitted:  2019-10-11
- #
- #-----------------------------------------------------------------------------
- #
- #  Description:  Double forks a Daemon, and concurrently accept connections from clients and send lottery tickets
- #
- #        Input:  N/A
- #
- #       Output:  Saves errors, and when a daemon starts and ends to a file.
- #
- #    Algorithm:  Double fork a daemon and for every incoming connection, fork off a child to handle requests and send lottery tickets
- #
- #   Required Features Not Included:  n/a
- #
- #   Known Bugs:  n/a
- #
- #   Classification: A
- #
-#==============================================================================
-
 import os
 from socket import *
 import signal

@@ -1,34 +1,4 @@
 #!/usr/bin/python3
-#==============================================================================
- #   Assignment:  Milestone 3
- #
- #       Author:  Abiram Kaimathuruthy
- #     Language:  Python
- #   To Compile:  n/a
- #
- #        Class:  DPI912
- #    Professor:  Prof. Kaduri
- #     Due Date:  2019-10-10
- #    Submitted:  2019-10-11
- #
- #-----------------------------------------------------------------------------
- #
- #  Description:  Concurrently request for tickets from server and save it into a log file when its recieved
- #
- #        Input:  client and connection amount
- #
- #       Output:  Lottery Ticket numbers
- #
- #    Algorithm:  for every client create child processes to create connections and request for tickets, once recieved save it into a log file and eventually harvest zombie children
- #
- #   Required Features Not Included:  n/a
- #
- #   Known Bugs:  n/a
- #
- #   Classification: A
- #
-#==============================================================================
-
 from socket import *
 import argparse
 import os
